@@ -34,9 +34,7 @@ go build -o build\BurpConfigChecker.exe BurpConfigChecker.go
 ### Windows Compilation (PowerShell)
 ```
 mkdir build
-$env:GOOS="windows"
-$env:GOARCH="amd64"
-go build -o build\BurpConfigChecker.exe BurpConfigChecker.go
+$env:GOOS="windows"; $env:GOARCH="amd64"; go build -o build\BurpConfigChecker.exe BurpConfigChecker.go
 ```
 
 ### Linux Compilation
